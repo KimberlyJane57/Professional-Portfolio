@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 2px;
     margin: 2px;
+    color: white;
 }
 body {
     background-color: rgb(0, 84, 109);
@@ -10,7 +11,6 @@ body {
 .header {
     padding: 10px;
     background-color: rgb(0, 42, 54);
-    color: white;
 }
 .header h1 {
     display: inline-block;
@@ -33,6 +33,14 @@ a {
     color: white;
     text-decoration: none;
 }
-.main {
-    
+.body-text{
+    margin-left: 150px;
+}
+h2 {
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    padding-top: 40px;
+    display: block;
 }
