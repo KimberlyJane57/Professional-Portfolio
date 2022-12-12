@@ -33,4 +33,40 @@ a {
     color: white;
     text-decoration: none;
 }
-
+.hc1-picture {
+    position: relative;
+    text-align: left;
+    font-weight: bolder;
+}
+.fp1-picture {
+    position: relative;
+    text-align: left;
+    font-weight: bolder;
+}
+.fp2-picture {
+    position: relative;
+    text-align: left;
+    font-weight: bolder;
+}
+.fp3-picture {
+    position: relative;
+    text-align: left;
+    font-weight: bolder;
+}
+.fp4-picture {
+    position: relative;
+    text-align: left;
+    font-weight: bolder;
+}
+.hc1-lt-corner, .fp1-lt-corner, .fp2-lt-corner, .fp3-lt-corner, .fp4-lt-corner {
+    position: absolute;
+    bottom: 36px;
+    left: 16px;
+    color: pink;
+}
+.hc1-lb-corner, .fp1-lb-corner, .fp2-lb-corner, .fp3-lb-corner, .fp4-lb-corner {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: pink;
+}
