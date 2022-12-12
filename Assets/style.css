@@ -33,14 +33,4 @@ a {
     color: white;
     text-decoration: none;
 }
-.body-text{
-    margin-left: 150px;
-}
-h2 {
-    height: 100%;
-    width: 150px;
-    position: absolute;
-    left: 0;
-    padding-top: 40px;
-    display: block;
-}
+
