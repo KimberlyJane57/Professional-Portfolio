@@ -1,19 +1,26 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     padding: 2px;
     margin: 2px;
-    color: white;
+}
+html {
+    height: 100%;
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 84, 109);
+    color: white;
+    min-height: 100%;
+    line-height: 1;
 }
 .header {
-    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    padding: 6px;
     background-color: rgb(0, 42, 54);
 }
 .header h1 {
-    display: inline-block;
+    display: inline-flex;
     font-size: 36px;
 }
 .header div {
@@ -32,6 +39,21 @@ body {
 a {
     color: white;
     text-decoration: none;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projectscard {
+    border-style: solid;
+    border-color: pink;
+    border-width: 1px;
 }
 .hc1-picture {
     position: relative;
