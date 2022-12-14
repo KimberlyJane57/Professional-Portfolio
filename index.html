@@ -4,106 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./Assets/style.css">
-    <title>Kimberly Professional Portfolio</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Kimberly Portfolio</title>
 </head>
 <body>
-    <div class="header">
-        <img src="\Assets\recent photo.JPG" alt="recent photo">
-        <h1>Kimberly Carroll Professional Portfolio</h1>
-        <div>
+    <div class="hero">
+        <nav>
+            <img src="./Assets/recent photo.jpg" alt="recent photo">
+            <h2>Portfolio</h2>
             <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
+        </nav>
+        <div class="content">
+            <h1>Kimberly Carroll</h1>
         </div>
     </div>
-    <div class="main">
-        <div id="about-me" class="about-me">
-            <h2>About Me</h2>
-            <p>
-                I will come up with something awesome related to coding farther into this course. Right now the about me section should only state that I google A LOT! Most the photos below in the section marked as "Work" are just place holders for screenshots of future project. These pictures are ones personally find beautiful as I LOVE being outside.
-            </p>
+
+    <section class="about">
+        <div class="main">
+            <div id="about-me" class="about-me">
+                <h2>About Me</h2>
+                <p>I will come up with something awesome related to coding farther into this course. Right now the about me section should only state that I google A LOT! Most the photos below in the section marked as "Work" are just place holders for screenshots of future project. These pictures are ones personally find beautiful as I LOVE being outside.</p>
+            </div>
         </div>
+    </section>
+
+    <div class="work">
         <div id="work" class="work">
             <h2>Work</h2>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#horiseon-challenge-1">Horiseon Challenge 1</a>
-                    </li>
-                    <li>
-                        <a href="#future-project-1">Future Project 1</a>
-                    </li>
-                    <li>
-                        <a href="#future-project-2">Future Project 2</a>
-                    </li>
-                    <li>
-                        <a href="#future-project-3">Future Project 3</a>
-                    </li>
-                    <li>
-                        <a href="#future-project-4">Future Project 4</a>
-                    </li>
-                </ul>
+            <li><a href="#horiseon-challenge-1"></a>Horiseon Challenge 1</li>
+            <li><a href="#future-project-1"></a>Future Project 1</li>
+            <li><a href="#future-project-2"></a>Future Project 2</li>
+            <li><a href="#future-project-3"></a>Future Project 3</li>
+            <li><a href="#future-project-4"></a>Future Project 4</li>
+        </div>
+        <div class="box">
+            <div class="card">
+                <div id="horiseon-challenge-1" class="horiseon-challenge-1">
+                    <h3>Horiseon Challenge 1</h3>
+                    <h4>HTML/CSS</h4>
+                    <img src="\Assets\Screenshot 2022-12-11 174511.png" alt="UofM BootCamp Challenge 1"/>
+                </div>
             </div>
-            <div class="projects">
-                <div class="projectscard">              
-                    <div id="horiseon-challenge-1" class="horiseon-challenge-1">
-                        <div class="hc1-picture">
-                            <img src="\Assets\Screenshot 2022-12-11 174511.png" alt="UofM BootCamp Challenge 1"/>
-                            <div class="hc1-lt-corner">Horiseon Challenge 1</div>
-                            <div class="hc1-lb-corner">HTML/CSS</div>
-                        </div>
-                    </div>
-                </div> 
-                <div class="projectscard">   
-                    <div  id="future-project-1" class="future-project-1">
-                        <div class="fp1-picture">
-                            <img src="\Assets\African Mountain Forests.jpg" alt="Afriacna Mountain Forests"/>
-                            <div class="fp1-lt-corner">Future Project 1</div>
-                            <div class="fp1-lb-corner">FP1 SubTitle</div>
-                        </div>
-                    </div>
+            <div class="card1">
+                <div id="future-project-1" class="future-project-1">
+                    <h3>Future Project 1</h3>
+                    <h4>FP1 Code Tool</h4>
+                    <img src="\Assets\Screenshot 2022-12-11 174511.png" alt="UofM BootCamp Challenge 1"/>
                 </div>
+            </div>
+            <div class="card1">
+                <div id="future-project-2" class="future-project-2">
+                    <h3>Future Project 2</h3>
+                    <h4>FP2 Code Tool</h4>
+                    <img src="\Assets\Screenshot 2022-12-11 174511.png" alt="UofM BootCamp Challenge 1"/>
+                </div>
+            </div><div class="card1">
                 <div id="future-project-3" class="future-project-3">
-                    <div class="fp3-picture">
-                        <img src="\Assets\Mountain Forest.jpg" alt="Mountain Forest"/>
-                        <div class="fp3-lt-corner">Future Project 3</div>
-                        <div class="fp3-lb-corner">FP3 SubTitle</div>
-                    </div>
+                    <h3>Future Project 3</h3>
+                    <h4>FP3 Code Tool</h4>
+                    <img src="\Assets\Screenshot 2022-12-11 174511.png" alt="UofM BootCamp Challenge 1"/>
                 </div>
+            </div>
+            <div class="card1">
                 <div id="future-project-4" class="future-project-4">
-                    <div class="fp4-picture">
-                        <img src="\Assets\White Mountain National Forest.jpg" alt="White Mountain National Forest"/>
-                        <div class="fp4-lt-corner">Future Project 4</div>
-                        <div class="fp4-lb-corner">FP4 SubTitle</div> 
-                    </div>
+                    <h3>Future Project 4</h3>
+                    <h4>FP4 Code Tool</h4>
+                    <img src="\Assets\Screenshot 2022-12-11 174511.png" alt="UofM BootCamp Challenge 1"/>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div id="contact-me" class="contact-me">
-            <h2>Contact Me</h2>
-            <ul>
-                <li>
-                    <a href="#phone">Phone: 555.555.5555</a>
-                </li>
-                <li>
-                    <a href="#email">Email: firstname@lastname.com</a>
-                </li>
-                <li>
-                    <a href="#linkedin">LinkedIn: LinkedIn URL</a>
-                </li>
-            </ul>
-        </div>
-    </div> 
+    
 </body>
 </html>
