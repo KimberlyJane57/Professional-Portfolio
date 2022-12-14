@@ -1,94 +1,114 @@
-* {
-    box-sizing: border-box;
-    padding: 2px;
-    margin: 2px;
-}
-html {
-    height: 100%;
-}
-body {
+*{
+    padding: 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(0, 84, 109);
-    color: white;
-    min-height: 100%;
-    line-height: 1;
+    box-sizing: border-box;
+    color: black;
 }
-.header {
-    display: inline-block;
+.hero{
+    height: 40vh;
     width: 100%;
-    padding: 6px;
-    background-color: rgb(0, 42, 54);
+    background-color: white;
 }
-.header h1 {
-    display: inline-flex;
-    font-size: 36px;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
-.header div {
-    padding: 0px;
-    margin: 3px;
-    float: right;
-    font-size: 18px;
-    font-weight: bolder;
+nav h2{
+    font-size: 35px;
 }
-.header div ul {
+nav ul li{
     list-style-type: none;
-}
-.header div ul li {
     display: inline-block;
+    padding: 10px 25px;
 }
-a {
-    color: white;
+nav ul li a{
     text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
 }
-.main {
+nav ul li a:hover{
+    color: gray;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: auto;
+}
+.main div h2{
+    margin: 0px;
+    padding: 10px;
+}
+.main div p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+}
+.work{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.work div h2{
+    width: 1130px;
+    margin: 30px auto;
+    text-align: left;
+}
+.work div li{
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.work div li a{
+    padding: 10px 25px;
+    text-align: center;
+}
+.box{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
 }
-.projects {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.projectscard {
-    border-style: solid;
-    border-color: pink;
-    border-width: 1px;
-}
-.hc1-picture {
+.card{
+    height: 465px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
     position: relative;
+    overflow: hidden;
     text-align: left;
-    font-weight: bolder;
 }
-.fp1-picture {
+.card div h3, .card div h4{
+    font-size: 15px;
+}
+.card1{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
     position: relative;
+    overflow: hidden;
     text-align: left;
-    font-weight: bolder;
 }
-.fp2-picture {
-    position: relative;
-    text-align: left;
-    font-weight: bolder;
-}
-.fp3-picture {
-    position: relative;
-    text-align: left;
-    font-weight: bolder;
-}
-.fp4-picture {
-    position: relative;
-    text-align: left;
-    font-weight: bolder;
-}
-.hc1-lt-corner, .fp1-lt-corner, .fp2-lt-corner, .fp3-lt-corner, .fp4-lt-corner {
-    position: absolute;
-    bottom: 36px;
-    left: 16px;
-    color: pink;
-}
-.hc1-lb-corner, .fp1-lb-corner, .fp2-lb-corner, .fp3-lb-corner, .fp4-lb-corner {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    color: pink;
-}
+.card1 div h3, .card1 div h4{
+    font-size: 15px;
