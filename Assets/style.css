@@ -38,12 +38,11 @@ nav ul li a:hover{
 .content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
+    padding: 10px;
 }
 .about{
     width: 100%;
-    padding: 100px 0px;
+    padding: 150px 50px 0px 0px;
 }
 .main{
     width: 1130px;
