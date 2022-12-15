@@ -36,9 +36,10 @@ nav ul li a:hover{
     transition: .4s;
 }
 .content{
-    position: absolute;
-    top: 40%;
-    left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 .about{
     width: 100%;
@@ -125,4 +126,13 @@ nav ul li a:hover{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
+    font-size: smaller;
+}
+footer{
+    font-size: x-small;
+}
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }    
 }
